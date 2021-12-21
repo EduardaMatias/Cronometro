@@ -10,6 +10,21 @@ body{
     font-family: "roboto", monospace;
 }
 
+button{
+    background:wheat;
+    border: solid black 1px;
+    border-radius: 5px;
+    width: 70px;
+    height: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+button:hover{
+    background: orange;
+}
+
 .container{
     width: auto;
     height: auto;
@@ -28,20 +43,7 @@ body{
     text-align: center;
 }
 
-button{
-    background:wheat;
-    border: solid black 1px;
-    border-radius: 5px;
-    width: 70px;
-    height: 30px;
-    font-size: 15px;
-    cursor: pointer;
-    margin: 0 15px;
-}
 
-button:hover{
-    background: orange;
-}
 
 .contador{
     font-size: 20px;
